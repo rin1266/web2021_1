@@ -1,0 +1,2 @@
+select id,都道府県,cast(男性 as real)*100/cast(人口 as real)as result from example order by result desc limit 10;
+select id,都道府県,cast(学生数 as real)*100/cast(人口 as real)as result from example order by result desc limit 10;
